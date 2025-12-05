@@ -1,0 +1,29 @@
+--- Running Test Pipeline (Test Mode Enabled) ---
+--- Running Update Portfolio (Test Mode) —
+Portfolio update complete. Data save to test_card_portfolio.csv.
+Total Portfolio Value: $326.55
+Most Valuable Card → Name: Charizard, Card ID: base0-4, Value: $250.75
+--- Test Complete ---
+
+--- Adding New Card Set ---
+Enter the TCG Card Set ID (e.g., base1, base4): base1
+Fetching data for set: base1...
+Successfully saved data to card_set_lookup/base1.json
+
+--- Starting Portfolio Build Workflow ---
+Do you want to add a NEW card set? (yes/no)
+no
+Do you want to refresh ALL existing card sets? (yes/no)
+
+--- Running Full Pipeline (Update + Summary) ---
+--- Starting Full Production Pipeline ---
+
+--- Running Portfolio Update (ETL) ---
+Portfolio update complete. Data save to card_portfolio.csv.
+
+--- Running Portfolio Summary Report ---
+Total Portfolio Value: $3,528.62
+Most Valuable Card → Name: Alakazam, Card ID: base1-1, Value: $500.00
+
+--- Production Pipeline Complete ---
+
